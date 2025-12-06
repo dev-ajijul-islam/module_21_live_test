@@ -31,6 +31,7 @@ class RecipesScreen extends StatelessWidget {
           final recipe = recipes[index];
 
           return ListTile(
+            leading: Icon(Icons.fastfood_sharp),
             tileColor: Colors.white,
             title: Text(recipe.title),
             subtitle: Text(
